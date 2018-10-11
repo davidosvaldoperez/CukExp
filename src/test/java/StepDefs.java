@@ -20,7 +20,7 @@ public class StepDefs {
         cucumbers = have;
     }
 
-    @When("I eat {int} cucumbers")
+    @When("I eat {int} cucumber(s)")
     public void i_eat_cucumbers(int eaten) throws Exception {
         cucumbers-=eaten;
     }
